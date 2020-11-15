@@ -3,6 +3,6 @@ title: There's a<br/><span style='color:crimson'>Mastermind</span><br/>in all of
 author: Kris van Rens
 ---
 
-# Yadayada
+# Nerd-life
 
-Blah blah
+* Separating work place from hobby work place
