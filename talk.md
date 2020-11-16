@@ -37,7 +37,11 @@ C++20 style
 
 ## Lessons learned
 
-...
+* Coding for fun is great!
+* There are a lots of great tools out there..
+* Implementations in other languages expand your mind!
+
+![](images/mind-blown.png)
 
 ## Future plans
 
