@@ -7,27 +7,73 @@ author: Kris van Rens
 
 Does anyone remember the game of Mastermind?
 
-![](images/master-mind-box.png)
-
-## A short explanation
-
+::: notes
 ...
+:::
 
-![](images/master-mind-board.png)
+##
+
+![](images/master-mind-box-and-board-0.png){ width="80%" }
+
+::: notes
+...
+:::
+
+##
+
+![](images/master-mind-box-and-board-1.png){ width="80%" }
+
+::: notes
+...
+:::
+
+##
+
+![](images/master-mind-box-and-board-2.png){ width="80%" }
+
+::: notes
+...
+:::
+
+## An explanation for Gen Z
+
+![](images/smiley-tongue.png)
+
+::: notes
+...
+:::
 
 # Let's code it up!
 
-C++20 style
+* Codemaker
+* Codebreaker (solvers)
+
+C++20 style ![](images/smiley-sunglasses.png){ width="5%" }
 
 ![](images/cplusplus-logo.png)
 
 ## The goals and requirements
 
-...
+* Set my own coding rules,
+* Use the fanciest tools I can find,
+* Apply best-practices,
+* Learn tons of stuff!
 
 ## Some highlights
 
-...
+// TODO
+
+* Ranges library
+* Docopt.cpp
+* Build system setup
+* Compile-time programming
+
+## Some highlights
+
+// TODO
+
+* Show codemaker-side
+* Show solvers
 
 ## Graphs...just because
 
@@ -71,6 +117,12 @@ Binge-working is counter-productive. Don't do it!
 
 . . .
 
-Doing a little bit every so often adds up..
+Doing a little bit every day really adds up..
 
 ![](images/sum.png)
+
+# That's it!
+
+Thanks ![](images/smiley-smile.png)
+
+http://github.com/krisvanrens/master-mind
