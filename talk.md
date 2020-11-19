@@ -52,12 +52,12 @@ C++20 style ![](images/em-sunglasses.svg){ width="4%" }
 
 ## Scalability
 
-![](images/colors-fields.png){ width="30%" } ![](images/formula.png){ width="30%" }
+![](images/colors-fields.png){ width="50%" }
 
 ## The goals and rules
 
 * There are no rules!
-* Use the fanciest new tools
+* Use the fanciest new tools available
 * Apply best-practices
 * Learn tons of stuff and have fun!
 
@@ -181,7 +181,8 @@ constexpr auto USAGE =
 -q --quiet   Show only the number of tries needed
 -v --verbose Show detailed solver output
 --list       List solvers)";
-
+```
+```c++
 int main(int argc, char** argv) {
   auto args = docopt::docopt(USAGE, {std::next(argv), std::next(argv, argc)}, true);
 }
@@ -195,7 +196,9 @@ $ bin/master-mind-solver -v naive
 ```
 Trying secret #1: [00000000000000000000000000000000000000000000000000]..
 Trying secret #2: [11111111111111111111111111111111111111111111111111]..
+
 ...
+
 Trying secret #3543: [11340189940424020494819604144247522803658022502071]..
 Trying secret #3544: [13840189940424020494119604144247522803658022502071]..
 Solver 'naive' needed 3544 steps
@@ -212,16 +215,16 @@ Solver 'naive' needed 3544 steps
 # Lessons learned
 
 * Coding just for fun is great!
-* There are a lots of great tools out there..
-* Implementations in other languages expand your mind!
-
-. . .
-
-![](images/em-exploding_head.svg){ width="6%" }
+* There are a lots of great tools out there.
+* Thinking up a solver is one thing, coding it is something else!
 
 # Future plans
 
 ![](images/javascript-logo.png){ width="15%" } ![](images/rust-logo.png){ width="15%" }
+
+Implementations in other languages expand your mind!
+
+![](images/em-exploding_head.svg){ width="6%" }
 
 # Nerd-life
 

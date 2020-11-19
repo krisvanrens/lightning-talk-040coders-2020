@@ -140,7 +140,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.94910902"
-     inkscape:cx="428.50577"
+     inkscape:cx="373.71754"
      inkscape:cy="354.87469"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -164,7 +164,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -173,85 +173,85 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.264583;stroke:none;stroke-opacity:1"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        id="path10"
-       cx="87.063614"
+       cx="27.796949"
        cy="119.03854"
        r="5.2375612" />
     <circle
        style="fill:#0000ff;fill-rule:evenodd;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        id="path10-3"
-       cx="87.063614"
+       cx="27.796949"
        cy="103.16356"
        r="5.2375612" />
     <circle
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path10-6"
-       cx="87.063614"
+       cx="27.796949"
        cy="76.705238"
        r="5.2375612" />
     <circle
        style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        id="path10-3-7"
-       cx="87.063614"
+       cx="27.796949"
        cy="60.830257"
        r="5.2375612" />
     <circle
        style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0565239;stroke-opacity:1"
        id="path10-5"
-       cx="87.063614"
+       cx="27.796949"
        cy="91.738335"
        r="1.1189218" />
     <circle
        style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0565239;stroke-opacity:1"
        id="path10-3-3"
-       cx="87.063614"
+       cx="27.796949"
        cy="88.346901"
        r="1.1189218" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
-       d="m 73.587072,62.209575 0,56.605915"
+       d="M 14.320401,62.209575 V 118.81549"
        id="path888"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-110.61018"
-       y="70.041656"
+       y="10.774983"
        id="text1394"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1392"
          x="-110.61018"
-         y="70.041656"
+         y="10.774983"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583">#/colors</tspan></text>
     <circle
-       style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.56499947;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.56499947,1.12999893;stroke-dashoffset:0;stroke-linejoin:round;stroke-linecap:round"
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5"
-       cx="87.063614"
+       cx="27.796949"
        cy="134.91354"
        r="5.2375612" />
     <circle
-       style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.56499947;stroke-miterlimit:4;stroke-dasharray:0.56499947,1.12999893;stroke-dashoffset:0;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round"
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5-6"
-       cx="102.93861"
+       cx="43.671951"
        cy="134.91354"
        r="5.2375612" />
     <circle
        style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5-2"
-       cx="118.81359"
+       cx="59.546932"
        cy="134.91354"
        r="5.2375612" />
     <circle
        style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5-6-9"
-       cx="134.68861"
+       cx="75.421967"
        cy="134.91354"
        r="5.2375612" />
     <g
        id="g1474"
-       transform="rotate(90,115.59058,114.48439)">
+       transform="rotate(90,85.957272,84.851082)">
       <circle
          style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.056524;stroke-opacity:1"
          id="path10-5-1"
@@ -268,30 +268,52 @@
     <circle
        style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5-2-7"
-       cx="158.50117"
+       cx="99.234505"
        cy="134.91354"
        r="5.2375612" />
     <circle
        style="fill:#e6e6e6;fill-rule:evenodd;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
        id="path10-6-5-6-9-0"
-       cx="174.37619"
+       cx="115.1095"
        cy="134.91354"
        r="5.2375612" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.964999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart-9);marker-end:url(#Arrow1Send-6)"
-       d="M 174.28186,148.84511 H 88.124865"
+       d="M 115.01515,148.84511 H 28.858194"
        id="path888-6"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="112.30692"
+       x="53.040279"
        y="159.41534"
        id="text1394-2"><tspan
          sodipodi:role="line"
          id="tspan1392-6"
-         x="112.30692"
+         x="53.040279"
          y="159.41534"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583">#/fields</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="87.242737"
+       y="91.151733"
+       id="text973"><tspan
+         sodipodi:role="line"
+         id="tspan971"
+         x="87.242737"
+         y="91.151733"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Asana Math';-inkscape-font-specification:'Asana Math';stroke-width:0.264583">N = C  = a lot</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="142.04745"
+       y="81.531815"
+       id="text977"><tspan
+         sodipodi:role="line"
+         id="tspan975"
+         x="142.04745"
+         y="81.531815"
+         style="stroke-width:0.264583">F</tspan></text>
   </g>
 </svg>
