@@ -41,24 +41,25 @@ Does anyone remember the game of **Mastermind** ![](images/em-question.svg){ wid
 
 # Let's code it up!
 
-* Codemaker
-* Codebreaker (solvers)
-
-. . .
+::: columns
+:::: column
+Codemaker/-breaker (solvers)
 
 C++20 style ![](images/em-sunglasses.svg){ width="4%" }
 
-![](images/cpp-logo.png){ width="10%" }
+![](images/cpp-logo.png){ width="25%" }
+::::
+:::: column
+Scalability
 
-## Scalability
-
-![](images/colors-fields.png){ width="50%" }
+![](images/colors-fields.png){ width="70%" }
+::::
+:::
 
 ## The goals and rules
 
-* There are no rules!
+* Rule #1: there are no rules!
 * Use the fanciest new tools available
-* Apply best-practices
 * Learn tons of stuff and have fun!
 
 . . .
@@ -67,93 +68,29 @@ C++20 style ![](images/em-sunglasses.svg){ width="4%" }
 
 # Highlights
 
-## Build system setup
-
-```
- CMAKE_BUILD_TYPE                 RelWithDebInfo                                                                                                                                                                
- CONAN_CMD                        /home/kris/.local/bin/conan                                                                                                                                                   
- ENABLE_CACHE                     ON                                                                                                                                                                            
- ENABLE_CLANG_TIDY                ON                                                                                                                                                                           
- ENABLE_COVERAGE                  ON                                                                                                                                                                           
- ENABLE_CPPCHECK                  ON                                                                                                                                                                           
- ENABLE_DOXYGEN                   OFF                                                                                                                                                                           
- ENABLE_INCLUDE_WHAT_YOU_USE      OFF                                                                                                                                                                           
- ENABLE_IPO                       OFF                                                                                                                                                                           
- ENABLE_SANITIZER_ADDRESS         OFF                                                                                                                                                                           
- ENABLE_SANITIZER_LEAK            OFF                                                                                                                                                                           
- ENABLE_SANITIZER_MEMORY          OFF                                                                                                                                                                           
- ENABLE_SANITIZER_THREAD          OFF                                                                                                                                                                           
- ENABLE_SANITIZER_UNDEFINED_BEH   OFF                                                                                                                                                                           
- ENABLE_TESTING                   ON                                                                                                                                                                            
- WARNINGS_AS_ERRORS               ON                                                                                                                                                                            
-
-Press [enter] to edit option Press [d] to delete an entry
-Press [c] to configure
-```
-
 ## Ranges library
 
 ```c++
-using namespace std::ranges;
-
+std::string to_string(const auto& series) {
+  std::stringstream result;
+  for (auto field = series.end() - 1; field >= series.begin(); --field) {
+    result << field;
+  }
+  return result.str();
+}
+```
+. . .
+```c++
 std::string to_string(const auto& series) {
   std::stringstream result;
   for_each(reverse_view{series}, [&](auto field) { result << field; });
   return result.str();
-}
-
-static void print(std::string&& prefix, const auto& series) {
-  std::cout << prefix << ": [" << to_string(series) << "]\n";
-}
-
-void print(const Secret& secret) {
-  print("Secret ", secret);
-}
-```
-
-## Neat tricks (1)
-
-```c++
-template<typename T>
-using Container = typename std::array<T, NUMBER_OF_FIELDS>;
-
-using Secret  = Container<Color>;
-using Score   = Container<Outcome>;
-using Indices = Container<unsigned int>;
-
-template<typename T>
-[[nodiscard]] constexpr auto indices(T container) {
-  Indices result;
-  std::iota(result.begin(), result.end(), 0);
-  return result;
-}
-```
-
-## Neat tricks (2)
-
-```c++
-using namespace std::ranges;
-
-constexpr IntermediateScore MM::scoreCorrectGuesses(const Secret& secret) const {
-  Score           result = {};
-  Container<bool> marker = {};
-
-  for_each(indices(secret), [&](auto index) {
-    if (secret[index] == secret_[index]) {
-      result[index] = Outcome::Correct;
-      marker[index] = true;
-    }
-  });
-
-  return {result, marker};
 }
 ```
 
 ## Compile-time programming
 
 Trying to move as much code as possible to compile-time..
-
-. . .
 
 E.g. `constexpr` testing:
 ```c++
@@ -162,12 +99,6 @@ TEST_CASE("Guess") {
                == {Correct, ColorCorrect, ColorCorrect});
 }
 ```
-
-## Debugging `constexpr` tests
-
-Change static checks to run-time checks!
-
-'Relaxed `constexpr`'
 
 ## Docopt.cpp
 
@@ -212,25 +143,13 @@ Solver 'naive' needed 3544 steps
 
 ![](images/graph-solvers-1.png){ width="60%" }
 
-# Lessons learned
-
-* Coding just for fun is great!
-* There are a lots of great tools out there.
-* Thinking up a solver is one thing, coding it is something else!
-
 # Future plans
 
 ![](images/javascript-logo.png){ width="15%" } ![](images/rust-logo.png){ width="15%" }
 
-Implementations in other languages expand your mind!
-
-![](images/em-exploding_head.svg){ width="6%" }
-
 # Nerd-life
 
 ![](images/em-nerd_face.svg){ width="8%" }
-
-Some random tips that worked well for me..
 
 ## Separation of concerns
 
@@ -241,8 +160,6 @@ Separate your work place from hobby work place!
 ## All the work counts
 
 Binge-working is counter-productive -- don't do it! ![](images/em-smirk.svg){ width="3%" }
-
-. . .
 
 Doing a little bit every day really adds up..
 
